@@ -10,7 +10,7 @@ module.exports = {
     API_KEY: process.env.HEROKU_API_KEY,
     APP_NAME: process.env.HEROKU_APP_NAME },
     BGM_URL : process.env.BGM_URL || "null",
-    REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
+    REJECT_CALL : toBool(process.env.REJECT_CALL || 'true'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'true'),
     ALLWAYS_ONLINE: toBool(process.env.ALLWAYS_ONLINE || "true"),
     PM_BLOCK : toBool(process.env.PM_BLOCK || "false"),
